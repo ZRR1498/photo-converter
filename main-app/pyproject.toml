@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "photo-converter"
+version = "1.0.0"
+description = "Cross-platform batch photo format converter with a modern GUI"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Photo Converter Contributors" }]
+keywords = ["photo", "image", "converter", "heic", "jpeg", "png", "gui"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Desktop Environment",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+]
+dependencies = [
+  "Pillow>=10.4.0",
+  "pillow-heif>=0.18.0",
+  "customtkinter>=5.2.2",
+  "darkdetect>=0.8.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3.0", "pyinstaller>=6.10.0"]
+
+[project.scripts]
+photo-converter = "photo_converter.app:run"
+
+[project.urls]
+Homepage = "https://github.com/example/photo-zipper"
+Issues = "https://github.com/example/photo-zipper/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["photo_converter*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

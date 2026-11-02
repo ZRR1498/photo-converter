@@ -1,0 +1,8 @@
+main-app/.venv/
+main-app/build/
+main-app/dist/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+.vscode/

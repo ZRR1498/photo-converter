@@ -1,0 +1,11 @@
+# Runtime
+Pillow>=10.4.0
+pillow-heif>=0.18.0
+customtkinter>=5.2.2
+darkdetect>=0.8.0
+
+# Packaging / build
+pyinstaller>=6.10.0
+
+# Tests
+pytest>=8.3.0
