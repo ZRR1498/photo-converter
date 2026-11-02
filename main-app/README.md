@@ -4,7 +4,8 @@
 
 | | |
 |---|---|
-| **License** | [MIT](LICENSE) |
+| **Repo** | [github.com/ZRR1498/photo-converter](https://github.com/ZRR1498/photo-converter) |
+| **License** | [MIT](LICENSE) · © 2026 ZRR1498 |
 | **Language** | Python 3.10+ |
 | **OS** | Linux · Windows · macOS |
 | **UI** | [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) |
@@ -166,4 +167,6 @@ pytest -q
 
 ## License
 
-Released under the **MIT License** — see [LICENSE](LICENSE). Free and open source software.
+Released under the **MIT License** — see [LICENSE](LICENSE) (also at the [repository root](../LICENSE)). Copyright (c) 2026 ZRR1498.
+
+Runtime dependencies (Pillow, pillow-heif, CustomTkinter, darkdetect) keep their own open-source licenses. PyInstaller is an optional build tool only.

@@ -9,7 +9,7 @@ description = "Cross-platform batch photo format converter with a modern GUI"
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.10"
-authors = [{ name = "Photo Converter Contributors" }]
+authors = [{ name = "ZRR1498", email = "zalyaliev.renat.r@gmail.com" }]
 keywords = ["photo", "image", "converter", "heic", "jpeg", "png", "gui"]
 classifiers = [
   "Development Status :: 5 - Production/Stable",
@@ -38,8 +38,9 @@ dev = ["pytest>=8.3.0", "pyinstaller>=6.10.0"]
 photo-converter = "photo_converter.app:run"
 
 [project.urls]
-Homepage = "https://github.com/example/photo-zipper"
-Issues = "https://github.com/example/photo-zipper/issues"
+Homepage = "https://github.com/ZRR1498/photo-converter"
+Repository = "https://github.com/ZRR1498/photo-converter"
+Issues = "https://github.com/ZRR1498/photo-converter/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
